@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Types of Computer"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/about4computer"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="Source: Make It Easy Education"
+            android:textColor="#000000"
+            android:textSize="14sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Computers are of various types and they can be categorized in two ways on the basis of size and on the basis of data handling capabilities."
+            android:textColor="#000000"
+            android:layout_marginTop="30dp"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="On the basis of size, there are five types of computers:"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/about4sub1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Supercomputer"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/about4sub2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:text="Mainframe computer"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/about4sub3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Minicomputer"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/about4sub4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Workstation"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/about4sub5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:text="PC (Personal Computer)"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Now let us discuss each type of computer in detail:"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/about4sub6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Supercomputer"
+            android:textColor="@color/blue"
+            android:textSize="19sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Supercomputers are designed such that they can process a huge amount of data, like processing trillions of instructions or data just in a second. This is because of the thousands of interconnected processors in supercomputers. It is basically used in scientific and engineering applications such as weather forecasting, scientific simulations, and nuclear energy research. It was first developed by Roger Cray in 1976."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/about4sub7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Mainframe computer"
+            android:textColor="@color/blue"
+            android:textSize="19sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Mainframe computers are designed in such a way that it can support hundreds or thousands of users at the same time. It also supports multiple programs simultaneously. So, they can execute different processes simultaneously. All these features make the mainframe computer ideal for big organizations like banking, telecom sectors, etc., which process a high volume of data in general."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/about4sub8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Minicomputer"
+            android:textColor="@color/blue"
+            android:textSize="19sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Minicomputer is a medium size multiprocessing computer. In this type of computer, there are two or more processors, and it supports 4 to 200 users at one time. Minicomputers are used in places like institutes or departments for different work like billing, accounting, inventory management etc. It is smaller than a mainframe computer but larger in comparison to the microcomputer."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/about4sub9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Workstation"
+            android:textColor="@color/blue"
+            android:textSize="19sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Workstation is designed for technical or scientific applications. It consists of a fast microprocessor, with a large amount of RAM and high speed graphic adapter. It is a single-user computer. It generally used to perform a specific task with great accuracy."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/about4sub10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text=" PC (Personal Computer)"
+            android:textColor="@color/blue"
+            android:textSize="19sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="It is also known as a microcomputer. It is basically a general-purpose computer and designed for individual use. It consists of a microprocessor as a central processing unit(CPU), memory,  input unit, and output unit. This kind of computer is suitable for personal work such as making an assignment, watching a movie, or at office for office work, etc. For example, Laptops and desktop computers."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".replace_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Upgrading HDD or SSD"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="(Desktop)"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/replace2computer"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="Source: electronhacks"
+            android:textColor="#000000"
+            android:textSize="14sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="A hard drive upgrade is one of the easiest ways to improve your PC, whether you’re looking for more storage or the speed boost an SSD provides. Here’s how to choose and install your new drive."
+            android:layout_marginTop="30dp"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="1. Choosing Your New Drive"
+            android:layout_gravity="left"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Choosing a drive that fits your budgets and does what you need is the first step. These days, your most important choice is between a traditional hard drive or a solid state drive (SSD). But there are few other things to think about, too."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="2. Decide Whether to Transfer Your Operating System or Perform a Clean Installation"
+            android:layout_gravity="left"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="You’ve purchased your new drive, and you’re ready to install it. Your next step is to decide whether you want to transfer your operating system to the new drive or just do a clean installation and start fresh. There are pros and cons for each."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Transferring Your Operating System"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Transferring your operating system (and all your data and installed apps) means not having to worry about reinstalling Windows, setting it up the way you like it again, and then reinstalling each of your apps. The downside is that it’s a pretty slow and tedious process."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="If you’re upgrading from only one drive to another (as opposed to simply installing an additional drive in a desktop), you’ll probably want to transfer your operating system to the new drive instead of installing fresh. The bad news is that this is a slow and tedious process. The good news is that it isn’t too hard to do. Most new drives come with tools to make it happen. And if you didn’t get a free tool, there are other ways to upgrade to a larger hard drive without reinstalling Windows."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Performing a Clean Installation"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="There are also advantages to just performing a clean installation of your operating system on your new drive. The big one is that you get to start fresh. No old program installations hanging around; it’s a fresh copy of your OS without the clutter. You get to set it the way you want, and only install what you want."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="The downside, of course, is that you have to do all that. While it typically goes faster than transferring your OS to the new drive, doing a clean installation does mean that you’ll have reinstall the apps and games you want, and restore your personal files from backup (or copy them from the new drive). You’ll also need make sure you have access to your applications for reinstallation. If you installed them from DVD or downloaded the installation files, you’ll need to find those—along with any necessary activation keys."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="3. Install Your New Drive"
+            android:layout_gravity="left"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="You’ll need a standard Philips-head screwdriver and a SATA cable. If you’re completely replacing a single drive, you can use the SATA cable that’s already in place. Your power supply probably has a free SATA power connection—multiple plugs are often available—but if not, you’ll need an adapter cable. If you’re working in an area that’s particularly prone to static electricity, you’ll want to use an anti-static bracelet as well. If you built your own PC, the screws needed to install your new drive should have come with the case—I hope you kept the box of accessories. If not, you’ll need to get some replacement screws. Finally, you’ll want a bowl or a cup to hold screws."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/hddtutorial1"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Power down your machine and remove all cables, then move it to your work area. This should be a cool, dry spot that’s easy to access, preferably without carpet below you. If you know the configuration of your computer’s internal parts, feel free to place it at the most accessible angle. If you don’t, just leave it upright—you may have to take multiple panels off for a full installation."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/hddtutorial2"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Remove the access panel from the primary side of the case—that’s the one on your left if you’re looking at your computer from the front. Most designs require you to remove two to three screws from the back side before it will slide or swing out. Set the access panel aside. Some desktops require that you take the whole case cover off rather than just an access panel. If you’re unsure, look up your desktop model or case on the web. Instructions should be easy to find."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Take a moment to orient yourself. If you’re working on a conventional desktop you’re probably looking at the motherboard, with the boxy power supply either at the top or the bottom of the case. You should be able to see your computer’s storage drive or drives mounted towards the front of the case. A SATA data cable should be running from the motherboard to the drive. A SATA power cable should be running from the power supply to the drive."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/hddtutorial3"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Note:  If you can’t see either a larger 3.5-inch drive or a smaller 2.5-inch drive, it might be mounted in an alternate spot. In newer designs this is often behind the motherboard itself—remove the opposite access panel to check."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="If you’re not keeping your old drive in your system for extra storage, now’s the time to take it out. You can also leave the cables attached to the motherboard and power supply and then just connect them to the new drive after installing it."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="First, unplug the data and power cables from the back of the old drive. There’s nothing too complex about this: just pull it out. Some cables have a little tab locking mechanism you’ll have to squeeze first."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/hddtutorial4"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="If the drive is on a sliding caddy, remove it (and note that some sliding caddies are screwed into place). Now, just use your screwdriver to remove the screws from the drive, whether it’s in a caddy or affixed directly to the case. The screws come in many sizes and lengths—some including silicone spacers for sound damping—and might be mounted to the bottom of the drive or the side, depending on your case’s design. It doesn’t really matter: just remove them, set them aside in a spot where you won’t lose them."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/hddtutorial5"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Your old drive is now free! Set it aside. Be careful with it, but don’t worry too much—they’re pretty sturdy."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="To install the new drive in place of the old one, you’ll just reverse the process. Put the new drive into the caddie, and then slide it into place on the case (and secure it if necessary)."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Now, plug the cables into the new drive. It’s easy to figure out—they only fit one way."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/hddtutorial6"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="If you’re adding a new hard drive and leaving the old one in place, it’s a bit more complicated. You’ll need to mount the new drive to the case (sliding it into an extra caddy that should have come with your case, if necessary). And, you’ll need to plug in additional cables."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Plug one end of the SATA data cable into the back of the new hard drive and the other end into your motherboard. The motherboard slots are generally on the side closest to the front of the PC, usually in a cluster of two to six. It doesn’t particularly matter which plug you use, though you might want to plug it into the top-left one (which is the “0” drive) or the closest one in sequence, just for the sake of organization."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Now plug the SATA power connection from the power supply into the new drive. If you already had a drive installed, check the power cablecoming out of it, because they generally have more than one plug and can be used for multiple drives. If your power supply doesn’t have any free SATA power connections, you’ll need to use an adapter or a splitter."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/hddtutorial7"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="After that, your drive should be ready to go! Double check your connections, make sure the cables aren’t touching any heatsinks or bumping up against cooling fan blades, and then replace the access panel on the case. Move your PC back to its original position, reconnect all your accessories and power cables, and fire it up!"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

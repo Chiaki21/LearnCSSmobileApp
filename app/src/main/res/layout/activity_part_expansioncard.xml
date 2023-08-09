@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".part_Expansioncard">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Expansion Card"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/idexpansioncard"
+            android:layout_width="380dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/expansioncard1"></ImageView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="An expansion card is an internal card that gives a computer additional capabilities, such as enhanced video performance via a graphics card."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Types of expansion cards in a computer"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:id="@+id/cardinterface"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Interface card (ATA, Bluetooth, EIDE, FireWire, IDE, parallel, RAID, SCSI, serial, and USB)."
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/cardmidi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• MIDI"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/cardmodem"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Modem"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/cardmpeg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• MPEG decoder"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/cardnetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Network card"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/cardsound"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Sound card"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/cardtuner"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Tuner card"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/cardvideocapture"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Video capture card"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/cardvideocard"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Video card"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+
+    </LinearLayout>
+</ScrollView>

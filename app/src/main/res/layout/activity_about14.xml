@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_14">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Binary Numbers"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="280dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/binarynumbers"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Binary is a base-2 number system invented by Gottfried Leibniz that's made up of only two numbers or digits: 0 (zero) and 1 (one). This numbering system is the basis for all binary code, which is used to write digital data such as the computer processor instructions used every day."
+            android:textColor="#000000"
+            android:layout_marginTop="30dp"
+            android:textSize="17sp">
+        </TextView>
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/about14computer"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="Source: GCFLearnFree.org"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Computing in Binary Numbers"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="The primary storage device inside the computer is the transistor that allows your computer to store and process millions of bits of data. A single transistor is capable of holding an electrical chard that is either positive or non-positive (0 or 1 sometimes). Since the objective of the computer is to manipulate data, the electrical states of the transistor (positive and non-positive) are assigned the numerical values of 1 and 0 (zero)"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Why Computers Use Binary"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="The short answer: hardware and the laws of physics. Every number in your computer is an electrical signal, and in the early days of computing, electrical signals were much harder to measure and control very precisely. It made more sense to only distinguish between an “on” state—represented by negative charge—and an “off” state—represented by a positive charge. For those unsure of why the “off” is represented by a positive charge, it’s because electrons have a negative charge—more electrons mean more current with a negative charge."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="So, the early room-sized computers used binary to build their systems, and even though they used much older, bulkier hardware, we’ve kept the same fundamental principles. Modern computers use what’s known as a transistor to perform calculations with binary. Here’s a diagram of what a field-effect transistor (FET) looks like:"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="340dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/binarynumbers2"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Essentially, it only allows current to flow from the source to the drain if there is a current in the gate. This forms a binary switch. Manufacturers can build these transistors incredibly small—all the way down to 5 nanometers, or about the size of two strands of DNA. This is how modern CPUs operate, and even they can suffer from problems differentiating between on and off states (though that’s mostly due to their unreal molecular size, being subject to the weirdness of quantum mechanics)."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Bits"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="A bit is a binary digit, the smallest increment of data on a computer. A bit can hold only one of two values: 0 or 1, corresponding to the electrical values of off or on, respectively."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Byte"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="A byte is a unit of memory data equal to either seven or eight bits, depending on whether or not it needs error correction (parity). You can think of a byte as one letter. For example, the letter 'h' is one byte or eight bits, and the word 'hope' is four bytes or 32 bits (4*8)."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Kilobytes"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text=" kilobyte was originally equal to 1,024 bytes because of base 2. However, in 1998, the IEC approved standard 60027-2, which defined 1,024 bytes as a kibibyte and not a kilobyte. Today, a kilobyte is equal to 1,000 bytes, and a kibibyte is equal to 1,024 bytes."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Megabytes"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="An MB is a measurement of binary data. It equals 1,048,576 (220) bytes or 1,000,000 (106) bytes depending on the manufacturer of the device that stores the data."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Gigabytes"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="GB or GByte is a unit of digital information equal either to 1,073,741,824 (230) bytes, or 1,000,000,000 (109) bytes. Many hard drive manufacturers and computer manufacturers list what they consider a gigabyte in the fine print."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

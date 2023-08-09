@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".part_Soundcard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Sound Card"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/idsoundcard"
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/soundcard1">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="A sound card is an expansion card or IC for producing sound on a computer that can be heard through speakers or headphones. Although the computer doesn't need a sound card, it's included on every machine as either in an expansion slot (shown above) or built into the motherboard (onboard)."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Sound card connections"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/idsoundcard2"
+            android:layout_width="100dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/soundcard2">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="The picture is an example of a sound card audio ports or audio jacks on the back of your computer, associated colors, and the connector symbols. In this example, the five audio jacks are used with devices that use the 3.5 mm mini plug."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Digital Out (white or yellow; words: Digital or Digital Out) - Used with surround sound or loudspeakers."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Sound in or line in (blue; Arrow pointing into waves) - Connection for external audio sources, (e.g., tape recorder, record player, or CD player.)"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Microphone or Mic (pink) - The connection for a microphone or headphones."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Sound out or line out (green; Arrow pointing out of waves) - The primary sound connection for your speakers or headphones. This sound card also has a second (black) and third (orange) sound out connector."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• FireWire (not pictured) - Used with some high-quality sound cards for digital video cameras and other devices."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• MIDI or joystick (15 pin yellow connector) - Used with earlier sound cards to connect MIDI keyboard or joystick."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Uses of a computer sound card"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Below are all of the different areas of a computer a sound card can be used."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Games."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Audio CDs and listening to music."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Watch movies."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Audio and video conferencing."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Creating and playing MIDI."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Educational software."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Business presentations."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Record dictations."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Voice recognition."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".part_CPU">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Central Processing Unit"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="27sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="(CPU)"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="27sp">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/idcpu"
+            android:layout_width="380dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/cpu1">
+        </ImageView>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cpuviewer"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/round_back_skyblue20"
+            android:text="View in 3D"
+            android:textColor="#FFFFFF"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="A computer's CPU handles all instructions it receives from hardware and software running on the computer. As an example, the CPU processed the instructions to use a web browser to open and display this web page on your computer."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="CPU Overview"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="The picture above is an example of what the bottom and top of a processor may look. The processor is placed and secured into a compatible CPU socket found on the motherboard. Processors produce heat, so they are covered with a heat sink to keep them cool and running smoothly. "
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="What does the CPU do?"
+        android:fontFamily="serif"
+        android:textColor="@color/blue"
+        android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="The CPU's main function is to take input from a peripheral (keyboard, mouse, printer, etc) or computer program, and interpret what it needs. The CPU then either outputs information to your monitor or performs the peripheral's requested task."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="Types of CPU's"
+        android:fontFamily="serif"
+        android:textColor="@color/blue"
+        android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Today, in addition to the different names of computer processors, there are different architectures (32-bit and 64-bit), speeds, and capabilities."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tut_10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Checking Laptop Battery"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="With a Multimeter"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tut10computer"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="Source: EcProjects"
+            android:textColor="#000000"
+            android:textSize="14sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="When things start to go downhill, the battery will need to be replaced. Testing your battery's charge and health is simple and enables you to save yourself from future inconvenience."
+            android:layout_marginTop="30dp"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="How to Test Laptop Battery With Multimeter"
+            android:layout_gravity="left"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="1. Keep your laptop battery fully charged."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="2. Disconnect your computer from power and remove the battery. Check to see whether the battery has a voltage rating marked on it. Use this to check the voltage using multimeter."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Many laptops feature voltages ranging from 9.6V, 10.8V, 11.1V, 14.4V, and 14.8V. People can rate with low or high scores."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="3. To fix the battery error on your computer, locate the connector where the battery and the laptop connected. When plugged in, the battery will be positioned in the center of the side that faces the laptop."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="It should be around one inch long, resembling a sequence of 5 similar thin slots that appear like the grating on your laptop's exhaust fan. The two open slots on the outside of the battery will serve as the positive and negative terminals."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="4. Measure the voltage at 20 volts on your multimeter and turn it on (or anything close to 20 volts). The letter V represents voltage settings, whereas wavy lines around the letter V are used to indicate direct current voltage settings."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="5. Next, locate the outermost battery connector on one end of the battery and insert a probe of your multimeter into the slot on the connector."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Find the middle two outer slots on the connector and insert the other prong of your multimeter into them. It doesn't matter if you keep your strengths and weaknesses in balance."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="You'll merely end up changing the voltage sign instead of changing the actual value, and the number is critical. To ensure that each prong is contacting naked, exposed metal, ensure that you are using four prongs."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="6. Read the multimeter's reading. When the battery is ultimately charged and healthy, it will measure approximately the printed value on the battery."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Measure the voltage of your battery after a 60% to 80% discharge to obtain a value for the complete charge. Lithium-ion battery runs out of juice, but it isn't going to measure near to 0V. Several volts are still in it."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="It occurs when the battery voltage dips below a particular point, at which point your computer automatically turns off."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="As voltage decreases,the battery's ability to hold a charge becomes compromised.Because of the protective circuitry in the battery,using a dead battery is impossible."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Here is a video type"
+            android:layout_gravity="left"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

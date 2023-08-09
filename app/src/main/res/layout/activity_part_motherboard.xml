@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".part_Motherboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Motherboard"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/idmotherboard"
+            android:layout_width="380dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/motherboard1"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/motherboardviewer"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/round_back_skyblue20"
+            android:text="View in 3D"
+            android:textColor="#FFFFFF"/>
+
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="The motherboard is a printed circuit board and foundation of a computer that is the biggest board in a computer chassis. It allocates power and allows communication to and between the CPU, RAM, and all other computer hardware components."
+            android:textColor="#000000"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Motherboard Overview"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="A motherboard provides connectivity between the hardware components of a computer, like the processor (CPU), memory (RAM), hard drive, and video card. There are multiple types of motherboards, designed to fit different types and sizes of computers."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Each type of motherboard is designed to work with specific types of processors and memory, so they don't work with every processor and type of memory. However, hard drives are mostly universal and work with the majority of motherboards, regardless of the type or brand."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Where is motherboard located?"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="A computer motherboard is located inside the computer case and is where most of the parts and computer peripherals connect. With tower computers, the motherboard is on the left or right side of the tower and is the biggest circuit board."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Motherboard Components"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/expansion"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="left"
+            android:text="• Expansion slots (PCI Express,PCI, and AGP"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/pincase"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="• 3-pin case fan connectors"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/heatsink"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="• Heat sink"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/pinpower"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="• 4-pin (P4) power connector"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/inductor"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="• Inductor"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/capacitor"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="• Capacitor"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/cpusocket"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="• CPU socket"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/northbridge"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="• Northbridge"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/screwhole"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="• Screw hole"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/memoryslot"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="• Memory slot"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/superio"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="• Super I/O"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/ataide"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="• ATA / IDE disk drive primary connection"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/psuconnector"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="• 24-pin ATX power supply connector"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/serialata"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="• Serial ATA connections"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/coincell"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="• Coin cell battery (CMOS backup battery)"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/systempanel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="• System panel connectors"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/fwh"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="• FWH"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/southbridge"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="• Southbridge"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/serialport"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="• Serial port connector"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/usbheaders"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="• USB headers"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/jumpers"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="• Jumpers"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/integratedcircuit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="• Integrated circuit"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/spdif"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="• SPDIF"
+            android:textColor="@color/blue"
+            android:layout_marginTop="10dp"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/cdin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="• CD-IN"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+
+
+    </LinearLayout>
+
+</ScrollView>

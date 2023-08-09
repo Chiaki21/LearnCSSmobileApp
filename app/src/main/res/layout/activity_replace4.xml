@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".replace_4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Upgrading or Replacing"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Wireless Card"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/replace4computer"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="Source: Torqcx"
+            android:textColor="#000000"
+            android:textSize="14sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="The Wi-Fi adapter in your PC is one of its smallest but most crucial components. If yours has gone out, or you want to upgrade to a newer one, here’s how to replace it."
+            android:layout_marginTop="30dp"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Which Upgrade Should I Get?"
+            android:layout_gravity="left"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="First of all, if you’re merely replacing your Wi-Fi card because the current one is damaged, just get the same model. You already know it’s compatible, and presumably your network setup hasn’t changed. If it ain’t broke, don’t fix it—except for the part that’s actually broken, of course. If you’re upgrading to a Wi-Fi adapter with a newer standard, you’ll have to do a little research."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/wcard">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Check For Compatibility"
+            android:layout_gravity="left"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="If you’re upgrading your desktop with a new PCI Express card, first check the compatibility. You’ll need to check the specs or physically inspect your motherboard to see how many (if any) PCI slots you have open. You can also use an app like Speccy (from the makers of CCleaner), which lets you view information about the PCI slots on your PC, including which are currently in use and by what. Desktop Wi-Fi cards usually use an x1 or an x2 slot, the smaller of the available standards."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/wcard1"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Which Wi-Fi Standard Do I Need?"
+            android:layout_gravity="left"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="There are a lot of different Wi-Fi standards out there, and new ones seem to crop up every few years. The easy answer here is, get the newest one you can afford—it’ll mean that you can go longer without replacing your card again."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="At the time of writing, the latest version of Wi-Fi is 802.11ac. It’s backwards-compatible with all earlier versions, so even if your personal networking equipment isn’t that new, it’s a good plus to have. The next upgrade, 802.11ax, probably won’t be coming to consumer-grade equipment for a year or so."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Note that some Wi-Fi cards also include Bluetooth for convenience. It’s easy enough to upgrade your desktop with a separate adapter for Bluetooth, but if you’re using a laptop, you want to replace a Wi-Fi/Bluetooth card with another Wi-Fi/Bluetooth card so you don’t lose the capability."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Replacing The Wireless Card In Your Desktop"
+            android:layout_gravity="left"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Swapping out or adding a wireless card to your desktop is fairly easy—it’s a lot like adding a graphics card. You’ll need a clean work space—preferably in a cool, dry area without carpet—and a Philips-head screwdriver. If your home is particularly prone to static, you might want an anti-static bracelet, too."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="To begin, power down your PC, remove all power and data cables, and move the PC to your work area. Next, it’s time to remove the case."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="On most full-size PCs, you just need to remove a side panel so you can get to the card slots—usually on the left side of the PC if you’re facing its front. On some PCs, you’ll need to remove the whole case. And some manufacturers make this harder than others. When in doubt, check your manual or just search the web for how to take the case off your computer model."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="After getting the cover off, lay your PC on its side. You should now be looking down at your computer’s internals. The PCI slots are easy to spot. You probably already have cards installed into some of them."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/wcard2"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="If you don’t currently have a wireless card, you need to remove one of these slot covers first, for the PCI Express slot that matches the size of the card you’re installing. Just take off the screw holding it in place (if there is one) and pull it straight out."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/wcard3"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="If installing a new card, pull out the blank expansion tab that matches the PCI-Express slot you’ll need to use."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/wcard4"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="If you’re replacing an existing card, remove the same screw and then take off the antenna from the back of the card. It should either pop off or need to be unscrewed with your fingers. When it’s clear, simply pull out the card, pulling straight up, and set it aside."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/wcard5"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Now it’s time to install the new card. Insert the metal part in the same slot next to the PC case, so the antenna connection is facing outside. Then insert the contacts into the PCI slot, gently pressing down until you can’t see the gold-colored contacts anymore."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/wcard6"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="When it’s fully inserted, replace the screw holding the card in place against the case. Add the antennas to the back of the card. Wireless cards don’t need to be plugged into the power supply, like some graphics cards; they run off electricity straight from the motherboard."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/wcard7"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="You’re done! Replace the access panel, screw it back down on the back of the case, and take your PC back to its usual spot. Replace all of the data and power cables and boot up."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Installing Your Card’s Drivers"
+            android:layout_gravity="left"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="If you’re using a modern Windows system, odds are pretty good that the operating system will automatically recognize your new wireless card, install the appropriate pre-loaded driver, and you’ll be able to use it within a minute or two. If not, check the Device Manager. If you see a device that isn’t recognized, the pre-loaded driver isn’t working."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/wcard8"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="You’ll need to get the driver onto your PC somehow. If it’s on a disc that came with the card and you have a CD drive, you’re good to go. If not, connect the internet via Ethernet and search for the manufacturer’s driver page for a download. If Ethernet isn’t an option, use another computer (or even your phone), download the file, and then transfer it via a USB drive (or cable)."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Double-click the installer file for the driver and follow the on-screen instructions. Once the process is done, your new card should be working. If it isn’t, especially if the hardware isn’t detected at all, go back through the installation process again—it’s possible that the card isn’t properly seated. If the card is installed but you’re not seeing any wireless networks, then check the antenna connection and make sure it’s in place on the correct plug."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+    </LinearLayout>
+
+</ScrollView>

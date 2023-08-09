@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgteachpc"
+    tools:context=".userHome">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+     >
+
+    <RelativeLayout
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+      <TextView
+          android:id="@+id/welcome"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="20dp"
+          android:text="Welcome!"
+          android:textColor="#ffffff"
+          android:textSize="24sp"
+          app:layout_constraintTop_toBottomOf="@+id/welcomeuser"/>
+
+      <TextView
+          android:id="@+id/welcomeuser"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_marginLeft="20dp"
+          android:textColor="#ffffff"
+          android:textSize="24sp" />
+
+      <ImageView
+          android:id="@+id/signOut"
+          android:layout_width="62dp"
+          android:layout_height="78dp"
+          android:layout_alignParentRight="true"
+          android:src="@drawable/signoutbutton" />
+
+
+    </RelativeLayout>
+    <GridLayout
+        android:columnCount="2"
+        android:rowCount="3"
+        android:layout_marginTop="25dp"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <androidx.cardview.widget.CardView
+          android:foreground="?attr/selectableItemBackground"
+          android:clickable="true"
+          android:id="@+id/coc"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_columnWeight="1"
+          android:layout_rowWeight="1"
+          app:cardElevation="6dp"
+          app:cardCornerRadius="45dp"
+          android:layout_margin="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+          <ImageView
+              android:layout_width="80dp"
+              android:layout_height="80dp"
+              android:src="@drawable/corelogo" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="12dp"
+              android:text="COC"
+              android:textColor="#6f6f6f"
+              android:textSize="18sp" />
+
+        </LinearLayout>
+      </androidx.cardview.widget.CardView>
+
+      <androidx.cardview.widget.CardView
+          android:foreground="?attr/selectableItemBackground"
+          android:clickable="true"
+          android:id="@+id/pcparts"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_columnWeight="1"
+          android:layout_rowWeight="1"
+          app:cardElevation="6dp"
+          app:cardCornerRadius="45dp"
+          android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+          <ImageView
+              android:layout_width="80dp"
+              android:layout_height="80dp"
+              android:src="@drawable/pcparts" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="12dp"
+              android:text="PC Parts"
+              android:textColor="#6f6f6f"
+              android:textSize="18sp" />
+        </LinearLayout>
+      </androidx.cardview.widget.CardView>
+
+      <androidx.cardview.widget.CardView
+          android:foreground="?attr/selectableItemBackground"
+          android:clickable="true"
+          android:id="@+id/aboutpc"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_columnWeight="1"
+          android:layout_rowWeight="1"
+          app:cardElevation="6dp"
+          app:cardCornerRadius="45dp"
+          android:layout_margin="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+          <ImageView
+              android:layout_width="80dp"
+              android:layout_height="80dp"
+              android:src="@drawable/aboutpc" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="12dp"
+              android:text="About PC"
+              android:textColor="#6f6f6f"
+              android:textSize="18sp" />
+
+        </LinearLayout>
+      </androidx.cardview.widget.CardView>
+      <androidx.cardview.widget.CardView
+          android:foreground="?attr/selectableItemBackground"
+          android:clickable="true"
+          android:id="@+id/tutorials"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_columnWeight="1"
+          android:layout_rowWeight="1"
+          app:cardElevation="6dp"
+          app:cardCornerRadius="45dp"
+          android:layout_margin="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+          <ImageView
+              android:layout_width="80dp"
+              android:layout_height="80dp"
+              android:src="@drawable/tutorial"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="12dp"
+              android:text="Tutorials"
+              android:textColor="#6f6f6f"
+              android:textSize="18sp" />
+        </LinearLayout>
+      </androidx.cardview.widget.CardView>
+
+      <androidx.cardview.widget.CardView
+          android:foreground="?attr/selectableItemBackground"
+          android:clickable="true"
+          android:id="@+id/quizzes"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_columnWeight="1"
+          android:layout_rowWeight="1"
+          app:cardElevation="6dp"
+          app:cardCornerRadius="45dp"
+          android:layout_margin="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+          <ImageView
+              android:layout_width="80dp"
+              android:layout_height="80dp"
+              android:src="@drawable/quizzes" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="12dp"
+              android:text="Quizzes"
+              android:textColor="#6f6f6f"
+              android:textSize="18sp" />
+        </LinearLayout>
+      </androidx.cardview.widget.CardView>
+
+
+      <androidx.cardview.widget.CardView
+          android:foreground="?attr/selectableItemBackground"
+          android:clickable="true"
+          android:id="@+id/detector"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_columnWeight="1"
+          android:layout_rowWeight="1"
+          app:cardElevation="6dp"
+          app:cardCornerRadius="45dp"
+          android:layout_margin="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+          <ImageView
+              android:layout_width="80dp"
+              android:layout_height="80dp"
+              android:src="@drawable/detectoricon" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="12dp"
+              android:text="Detector"
+              android:textColor="#6f6f6f"
+              android:textSize="18sp" />
+        </LinearLayout>
+      </androidx.cardview.widget.CardView>
+
+
+
+
+    </GridLayout>
+  </LinearLayout>
+
+  </ScrollView>
+<!--
+  <com.google.android.material.bottomnavigation.BottomNavigationView
+      android:id="@+id/bottom_navigation"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      app:itemBackground="@color/dark"
+      app:itemIconTint="@drawable/selector"
+      app:itemTextColor="@drawable/selector"
+      app:menu="@menu/menu_navigation" />
+-->
+  </RelativeLayout>

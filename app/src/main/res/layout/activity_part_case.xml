@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".part_Case">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Chassis"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+
+
+        <ImageView
+            android:id="@+id/idcase"
+            android:layout_width="380dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/case1"></ImageView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/caseviewer"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/round_back_skyblue20"
+            android:text="View in 3D"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="The chassis is the housing that helps protect and organize all the components that make up a desktop computer."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Why do we need a computer case?"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Most people overlook the computer case as only a box, but it does provide the below important features."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Structure - The case is what holds everything together in a compact and organized fashion."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Protection - Without the case, each of the sensitive components in the computer would be vulnerable to dirt, foreign objects, kids, animals, and electrical interference."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Cooling - The case helps keep the air properly flowing over all components, which keeps everything cool and running properly."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Noise - Many computers and components have fans that generate noise. Having those components in a confined case reduces the overall noise."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Aesthetics - Although some may disagree, most people would rather look at the case instead of all the circuit boards, wires, and the computer components."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Components found inside a chassis"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Below is a list of the different types of hardware components you would find inside your computer chassis."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/caseexpansion"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Expansion card."
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/caseheat"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Heat sink and Fans."
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/casedrive"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Internal drives (e.g., hard drive, CD drive)."
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/caseram"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• RAM (random access memory)."
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/casemotherboard"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Motherboard."
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/casepsu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• PSU (power supply unit)."
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/casecpu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• CPU (central processing unit)."
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+
+    </LinearLayout>
+
+</ScrollView>

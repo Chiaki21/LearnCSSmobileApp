@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".part_Fan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Cooling Fan"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/idfan"
+            android:layout_width="380dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/coolingfan1">
+        </ImageView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/fanviewer"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/round_back_skyblue20"
+            android:text="View in 3D"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="A fan is a hardware device that keeps the overall computer or a computer device cool by circulating air to or from the computer or component. The picture is an example of a fan on a heat sink. The speed of a fan is measured in revolutions per minute or RPM, and the higher the RPM rating, the faster the fan spins. However, in many cases, the higher the RPM rating, the louder a fan."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Types of fans found in a computer"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Below is a listing of the different types of fans inside a computer, and the computer hardware components that require fans to function correctly."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/casefan"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Case fan"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="a fan on the side of a computer case, inside the case. It helps circulate air in the computer case and blow hotter air out of the case."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/cpufan"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• CPU fan"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="a fan on top of a computer processor. It helps pull and blow hot air off the processor, helping keep it cooler."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/psufan"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Power supply fan"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="a fan located inside a power supply. The power supply fan blows hotter air out of the power supply and out of the computer."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:id="@+id/vcardfan"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Video card fan"
+            android:textColor="@color/blue"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="a fan on a video card. It helps keep more powerful video cards from overheating, especially when playing video games, editing videos, and other GPU or graphic-intensive tasks."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="How to install a fan"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Case Fan"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Nearly all case fans are mounted (attached) to the front, back, or side of a computer case using four screws, snap-in brackets, or both. If the case fan is being installed on the back or side of the computer case, most often, you use four screws to secure the fan in place. Case fans installed in the front of a computer case may be attached using snap-in brackets or screws, depending on the type of computer case. If the case fan is new, it comes with the screws needed for installation."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="CPU fan"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="The steps to install a CPU fan can vary widely, depending on the type of CPU fan, CPU, and motherboard. Some CPU fans attach directly to the heat sink, and the heat sink is then attached to the motherboard. Other CPU fans come with a built-in heat sink, and the whole unit connects to the motherboard."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Refer to the instructions that came with the CPU fan for the proper installation steps. Follow the installation steps very closely and carefully to ensure the CPU fan is installed correctly and facing the right direction for proper airflow."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Power supply fan"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="A power supply comes with a fan built into the unit, so installing a fan inside a power supply is not needed. If the fan in the power supply unit stops working, you can try cleaning it out using compressed air to see if that resolves the issue. Otherwise, you need to replace the entire power supply unit."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Video card fan"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Higher-end video cards come with a built-in fan, so there is no need to install a fan on or inside the video card. If the fan in the video card stops working, you can try cleaning it out using compressed air to see if that resolves the issue. Otherwise, you need to replace the video card to prevent overheating."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="What if a computer has no fans or the fans stop working"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Unless designed to work without fans, a computer with no fans or bad fans can cause one or more component to overheat. When a component overheats, it can cause physical damage. To help prevent damage, most of today's hardware automatically turn off or restart to help prevent the damage."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="I3, I5, I7 Explained"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/about8computer"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="Source: Techquickie"
+            android:textColor="#000000"
+            android:textSize="14sp">
+        </TextView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Intel’s Core i3, i5 and i7 processors can also be grouped in terms of their target devices. Some are intended for us inside laptops, others are intended for use with desktop PCs. Wattage is the big differentiator here, since CPUs inside mobile devices generally have to make do with less power draw,"
+            android:textColor="#000000"
+            android:layout_marginTop="30dp"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/i3i5i7"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="In some cases, the difference in specs and performance for the desktop and laptop variants of Intel’s i5 and i7 CPUs can be quite significant. However, to avoid confusion, let's start by exclusively talking about the desktop variants. "
+            android:textColor="#000000"
+            android:layout_marginTop="30dp"
+            android:textSize="17sp">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Number of Cores"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/intelcore1"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="intel-xmm-8160-modem"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="Credit: Intel"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="While the number of cores inside an Intel Core CPU isn’t everything, the more cores there are, the more tasks (known as threads) can be served at the same time. This means that a PC with a higher core-count is going to be better for tasks where multithreading is important, such as web servers, web browsers and some video games."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="While there isn’t a hard and fast rule around it, you’re also more likely to find less cores in a Core i3 than you are a Core i5 or i7. With a few exceptions, such as Intel’s 8th Gen Core i3 “Coffee Lake” CPUs, most Core i3 CPUs only have two cores. "
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="The reason for this is that i3 processors are designed to hit a lower price-point more than they are push boundaries for performance. They tend to be found inside PCs that target a more budget-conscious market-segment where the need for a device to be affordable eclipses the demand for higher performance. "
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="As you’d expect, Intel’s Core i5 processors tend to be more powerful than their i3 counterparts. Part of this comes down to faster average clock speeds. Part of this comes down to additional cores. More cores means these CPUs can handle more threads at once and faster clock speeds mean they can complete tasks more efficiently."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="In years past, Intel’s Core i5 CPU line-up has generally been built around CPUs with up to four-cores. However, in recent times (like the 9th-Gen Coffee Lake refresh), Intel have upped the ante to six cores for many of their i5 CPUs. This includes stuff like the Intel Core i5-9400, Intel Core i5-9500 and Intel Core i5-9600. "
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/intelcore2"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="Credit: Intel"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Lastly,  you’ve got Intel’s Core i7 CPUs. Again, you’re looking at both faster average clock speeds and additional cores. Intel’s Kaby Lake i7 Core CPUs included only four cores but the more modern Coffee Lake family of i7 CPUs feature up to eight cores and standard clock speeds that range go up to 3.6Ghz. "
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="At this point, you may be wondering just how important clock speeds are. The answer: pretty important. However, when it comes to clock speed, there are a few things you’ll want to keep in mind. "
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="The first is that, in general, a higher clock speed is better. However, due to the thermal issues involved, processors with more cores tend to operate at a lower clock speed.  Often-times, choosing a CPU involves choosing between a CPU capable of delivering faster clock-speeds or choosing one with more cores."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="This brings us to the second thing you’ll want to keep in mind: faster might be better but it's not always necessary. Although a faster core might be more efficient than a slower one, it might not necessarily be better for the tasks you want to use your computer to be better at."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Many applications only run single-threads while others are designed to utilize multiple. For cases where the latter applies, such as video rendering and gaming, having more cores is going to offer up an enormous improvement over having faster ones."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Rather than run out and dropping the cash on the CPU with the fastest clock speed you can find, it might be worth thinking about what the clock speed you actually need looks like. To that end, it's worth looking up the recommend system specifications for the game or software you'll be running on your new PC."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="For more everyday things like web browsing, an i5 processor with a higher clock speed is probably going to offer more bang for your buck than a beefier i7 might. Still, sometimes it’s more important to have those extra cores than an i5 or i7 CPU includes and often-times the choice between one Intel Core CPU and another will come down to whether you want to have a CPU with more cores or one with better clock speeds."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

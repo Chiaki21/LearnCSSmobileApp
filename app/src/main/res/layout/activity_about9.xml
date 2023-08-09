@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="AMD vs Intel"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/about9computer"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="Source: Techquickie"
+            android:textColor="#000000"
+            android:textSize="14sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Choosing the right CPU (central processing unit) is one of the most important decisions you’ll make when building your PC. The processor you choose will ultimately determine which motherboard you can equip your build with, which in turn can affect the compatibility of other components."
+            android:textColor="#000000"
+            android:layout_marginTop="30dp"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/amdvsintel">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Difference between Intel and AMD"
+            android:fontFamily="serif"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Intel"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Intel stands for “Integrated Electronics”. Intel Corporation is an American multinational corporation and technology company headquartered in Santa Clara, California, in Silicon Valley. It was invented by Robert Noyce. It is the developer of the first x86 processor -Intel 8086"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="If we talk on a scale of 1-10, Intel processors come at a scale of 4-10. These processors have good CPU performance and almost all Intel processors come with iGPU. This processor also clocks higher than AMD processors, at the cost of higher power consumption and battery life. Thus, for short workloads and single-core boosts especially in laptops, newer Intel-powered laptops can be used when battery life is not a concern. If we talk about Desktop, and you want to change processor, motherboard or socket’s compatibility, then Intel has fewer options available for that in comparison to AMD processor due to frequent motherboard and chipset changes."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Example – Intel Xeon, Intel Core i series, Intel Core m series"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Advanced Micro Devices (AMD)"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="AMD stands for Advanced Micro Devices. It is an American multinational semiconductor company based in Santa Clara, California. It was invented by Jerry Sanders, Jack Gifford, John Carey. It started supplying x86 processors as a second source manufacturer and became a competitor with Am386."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="On a scale of 1-10, AMD processors come at 5-10. It is cheaper than Intel Processors at a similar range. These processors are efficient compared to the current generation Core series. AMD APUs are also a good option for their good iGPU performance and comparable CPU performance to Core i series. Laptops powered with Ryzen processors often clock lower and less aggressively compared to Intel-powered laptops, they often run cooler and longer on battery, thus for laptops, when higher iGPU performance and longer battery life is preferred, Ryzen powered laptops can be used. Although, when building a new Desktop PC, older FX series CPUs  A-series APUs and should be avoided for their higher power consumption and heat output."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="If we talk about the desktop, mobile, and you only want to do normal gaming and for everyday use, then Ryzen APU is the way to go. For heavier tasks like video editing, 3D modelling, etc, Ryzen 7 or 9 CPUs or Threadripper should be preferred."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="For Ryzen Desktop CPUs and APUs in the AM4 platform, the motherboard chipset should be checked for support otherwise PC may not boot, although it can be easily solved with motherboards with USB BIOS flashing for newer processors."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Example – AMD Ryzen, AMD Threadripper, AMD FX-Series, AMD EPYC, AMD Opteron, AMD Athlon 64"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

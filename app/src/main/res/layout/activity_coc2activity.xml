@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".coc2activity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/appbar"
+        android:fitsSystemWindows="true"
+        android:theme="@style/Theme.Design">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/collapsingToolbar"
+            android:fitsSystemWindows="true"
+            android:background="@drawable/coc2bginfo"
+            app:expandedTitleMarginStart="15dp"
+            app:title="COC 2"
+            app:collapsedTitleTextColor="#000000"
+            app:expandedTitleTextColor="#000000"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:id="@+id/toolbar"
+                app:layout_collapseMode="pin"/>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="37dp"
+                android:text="Setup Computer\nNetworks"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text1"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="20dp"
+                android:text="by LearnCSS"
+                android:textColor="#454343"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/aat0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text2"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+
+                android:padding="3dp"
+                android:text="This lessons will be all about setting up computer networks! We aim to understand how computers are connected to each other that is why it is essential that we should be familiar with the different devices found in the workplace to perform network connectivity.\n\nIt is important to understand that each workplace has a unique plan/map of how the organization distributes information and who has access."
+                android:textColor="#000"
+                android:textSize="15dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <TextView
+                android:id="@+id/aat3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/aat0"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:padding="3dp"
+                android:text="Upon doing this series of lectures in COC 2 you're expected to:\n\n• Create network cables\n• Configure Networks\n• Set Router/Wi-Fi/wireless access point/repeater configuration\n• Inspect and test the configured computer networks"
+                android:textColor="#000"
+                android:textSize="15dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@id/aat3"
+                android:text="Course Contents"
+                android:textColor="#000"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/coc2content1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#00000000"
+                android:layout_margin="20dp"
+                app:cardElevation="8dp"
+                android:layout_below="@id/text3"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@drawable/coc2bg"
+                    >
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/bluebuttonbg" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="130dp"
+                        android:fontFamily="serif"
+                        android:padding="20dp"
+                        android:text="1. Network Cable Splicing"
+                        android:textColor="#FFFFFF"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/coc2content2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#00000000"
+                android:layout_margin="20dp"
+                app:cardElevation="8dp"
+                android:layout_below="@id/coc2content1"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@drawable/coc2bg"
+                    >
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/bluebuttonbg" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="130dp"
+                        android:fontFamily="serif"
+                        android:padding="20dp"
+                        android:text="2. Patch Panels"
+                        android:textColor="#FFFFFF"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/coc2content3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#00000000"
+                android:layout_margin="20dp"
+                app:cardElevation="8dp"
+                android:layout_below="@id/coc2content2"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@drawable/coc2bg"
+                    >
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/bluebuttonbg" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="130dp"
+                        android:fontFamily="serif"
+                        android:padding="20dp"
+                        android:text="3. Configure Router"
+                        android:textColor="#FFFFFF"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/coc2content4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#00000000"
+                android:layout_margin="20dp"
+                app:cardElevation="8dp"
+                android:layout_below="@id/coc2content3"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@drawable/coc2bg"
+                    >
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/bluebuttonbg" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="130dp"
+                        android:layout_alignParentBottom="true"
+                        android:fontFamily="serif"
+                        android:padding="20dp"
+                        android:text="4. Configure (WAP)"
+                        android:textColor="#FFFFFF"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/coc2backbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#fff"
+        android:baselineAlignBottom="true"
+        android:clickable="true"
+        app:fabSize="normal"
+        app:layout_anchor="@id/appbar"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_anchorGravity="end|bottom"
+        android:foreground="?attr/selectableItemBackground"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.teachpc">
+    <!-- Enable instant app support -->
+    <dist:module dist:instant="true" /> <!-- Declare features -->
+    <uses-feature android:name="android.hardware.camera" /> <!-- Declare permissions -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TeachPC">
+        <activity
+            android:name=".coc1content1_1"
+            android:exported="false"
+            android:parentActivityName=".coc1activity"/>
+        <activity
+            android:name=".PCParts2"
+            android:exported="false"
+            android:parentActivityName=".userHome" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".coc4confirm"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".coc4resultsuccess"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".coc4quiz"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".coc4cert"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".coc3confirm"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".coc3resultsuccess"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".coc3quiz"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".coc3cert"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".coc2confirm"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".coc2resultsuccess"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".coc2quiz"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".coc1confirm"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".nullcert"
+            android:exported="false"
+            android:parentActivityName=".MyCertificate" />
+        <activity
+            android:name=".coc2cert"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".coc1cert"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".MyCertificate"
+            android:exported="false"
+            android:parentActivityName=".Quizzes" />
+        <activity
+            android:name=".QuizFailed"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".coc1resultsuccess"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".coc1quiz"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".coc4content1"
+            android:exported="false" />
+        <activity
+            android:name=".coc3content1"
+            android:exported="false" />
+        <activity
+            android:name=".coc2content4"
+            android:exported="false" />
+        <activity
+            android:name=".coc2content3"
+            android:exported="false" />
+        <activity
+            android:name=".coc2content2"
+            android:exported="false" />
+        <activity
+            android:name=".coc2content1"
+            android:exported="false" />
+        <activity
+            android:name=".coc1content5"
+            android:exported="false" />
+        <activity
+            android:name=".coc1content4"
+            android:exported="false" />
+        <activity
+            android:name=".coc1content3"
+            android:exported="false" />
+        <activity
+            android:name=".coc1content2"
+            android:exported="false" />
+        <activity
+            android:name=".coc1content1"
+            android:exported="false"
+            />
+        <activity
+            android:name=".coc4activity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".coc3activity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".coc2activity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".coc1activity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".coc"
+            android:exported="false"
+            android:parentActivityName=".userHome" />
+        <activity
+            android:name=".Partsactivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".QuizTimesUp"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".subpartpowersupply"
+            android:exported="false"
+            android:parentActivityName=".part_PSU" />
+        <activity
+            android:name=".subpartmotherboard"
+            android:exported="false"
+            android:parentActivityName=".part_Motherboard" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="false"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".QuizResults"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".QuizActivity"
+            android:exported="false"
+            android:parentActivityName=".Quizzes"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".userHome"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".RegisterUser"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".LoginUser"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".replace_6"
+            android:exported="false" />
+        <activity
+            android:name=".replace_5"
+            android:exported="false" />
+        <activity
+            android:name=".replace_4"
+            android:exported="false" />
+        <activity
+            android:name=".replace_3"
+            android:exported="false" />
+        <activity
+            android:name=".replace_2"
+            android:exported="false" />
+        <activity
+            android:name=".replace_1"
+            android:exported="false" />
+        <activity
+            android:name=".tut_13"
+            android:exported="false" />
+        <activity
+            android:name=".tut_12"
+            android:exported="false" />
+        <activity
+            android:name=".tut_11"
+            android:exported="false" />
+        <activity
+            android:name=".tut_10"
+            android:exported="false" />
+        <activity
+            android:name=".tut_9"
+            android:exported="false" />
+        <activity
+            android:name=".tut_8"
+            android:exported="false" />
+        <activity
+            android:name=".tut_7"
+            android:exported="false" />
+        <activity
+            android:name=".tut_6"
+            android:exported="false" />
+        <activity
+            android:name=".tut_5"
+            android:exported="false"
+            android:parentActivityName=".Tutorials" />
+        <activity
+            android:name=".tut_4"
+            android:exported="false" />
+        <activity
+            android:name=".tut_3"
+            android:exported="false" />
+        <activity
+            android:name=".tut_2"
+            android:exported="false" />
+        <activity
+            android:name=".tut_1"
+            android:exported="false" />
+        <activity
+            android:name=".about_17"
+            android:exported="false" />
+        <activity
+            android:name=".about_16"
+            android:exported="false" />
+        <activity
+            android:name=".about_15"
+            android:exported="false" />
+        <activity
+            android:name=".about_14"
+            android:exported="false" />
+        <activity
+            android:name=".about_13"
+            android:exported="false" />
+        <activity
+            android:name=".about_12"
+            android:exported="false" />
+        <activity
+            android:name=".about_11"
+            android:exported="false"
+            android:parentActivityName=".AboutPC" />
+        <activity
+            android:name=".about_10"
+            android:exported="false"
+            android:parentActivityName=".AboutPC" />
+        <activity
+            android:name=".about_9"
+            android:exported="false"
+            android:parentActivityName=".AboutPC" />
+        <activity
+            android:name=".about_8"
+            android:exported="false"
+            android:parentActivityName=".AboutPC" />
+        <activity
+            android:name=".about_7"
+            android:exported="false"
+            android:parentActivityName=".AboutPC" />
+        <activity
+            android:name=".about_6"
+            android:exported="false"
+            android:parentActivityName=".AboutPC" />
+        <activity
+            android:name=".about_5"
+            android:exported="false"
+            android:parentActivityName=".AboutPC" />
+        <activity
+            android:name=".about_4"
+            android:exported="false"
+            android:parentActivityName=".AboutPC" />
+        <activity
+            android:name=".about_3"
+            android:exported="false"
+            android:parentActivityName=".AboutPC" />
+        <activity
+            android:name=".about_2"
+            android:exported="false"
+            android:parentActivityName=".AboutPC" />
+        <activity
+            android:name=".about_1"
+            android:exported="false"
+            android:parentActivityName=".AboutPC" />
+        <activity
+            android:name=".part_Laptopcharger"
+            android:exported="false"
+            android:parentActivityName=".PCParts" />
+        <activity
+            android:name=".part_Expansioncard"
+            android:exported="false"
+            android:parentActivityName=".PCParts" />
+        <activity
+            android:name=".part_Touchpad"
+            android:exported="false"
+            android:parentActivityName=".PCParts" />
+        <activity
+            android:name=".part_Case"
+            android:exported="false"
+            android:parentActivityName=".PCParts" />
+        <activity
+            android:name=".part_NIC"
+            android:exported="false"
+            android:parentActivityName=".PCParts" />
+        <activity
+            android:name=".part_Soundcard"
+            android:exported="false"
+            android:parentActivityName=".PCParts" />
+        <activity
+            android:name=".part_Speaker"
+            android:exported="false"
+            android:parentActivityName=".PCParts" />
+        <activity
+            android:name=".part_Mouse"
+            android:exported="false"
+            android:parentActivityName=".PCParts" />
+        <activity
+            android:name=".part_Keyboard"
+            android:exported="false"
+            android:parentActivityName=".PCParts" />
+        <activity
+            android:name=".part_Monitor"
+            android:exported="false"
+            android:parentActivityName=".PCParts" />
+        <activity
+            android:name=".part_Cardreader"
+            android:exported="false"
+            android:parentActivityName=".PCParts" />
+        <activity
+            android:name=".part_Discdrive"
+            android:exported="false"
+            android:parentActivityName=".PCParts" />
+        <activity
+            android:name=".part_SSD"
+            android:exported="false"
+            android:parentActivityName=".PCParts" />
+        <activity
+            android:name=".part_HDD"
+            android:exported="false"
+            android:parentActivityName=".PCParts" />
+        <activity
+            android:name=".part_GPU"
+            android:exported="false"
+            android:parentActivityName=".PCParts" />
+        <activity
+            android:name=".part_Ram"
+            android:exported="false"
+            android:parentActivityName=".PCParts" />
+        <activity
+            android:name=".part_Fan"
+            android:exported="false"
+            android:parentActivityName=".PCParts" />
+        <activity
+            android:name=".part_PSU"
+            android:exported="false"
+            android:parentActivityName=".PCParts" />
+        <activity
+            android:name=".part_CPU"
+            android:exported="false"
+            android:parentActivityName=".PCParts" />
+        <activity
+            android:name=".part_Motherboard"
+            android:exported="false"
+            android:parentActivityName=".PCParts" />
+        <activity
+            android:name=".Tutorials"
+            android:exported="false"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".Quizzes"
+            android:exported="false"
+            android:parentActivityName=".userHome" />
+        <activity
+            android:name=".AboutPC"
+            android:exported="false"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".PCParts"
+            android:exported="false"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".MainActivityTeachPC"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

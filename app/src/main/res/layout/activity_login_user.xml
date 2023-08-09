@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgteachpc"
+    tools:context=".LoginUser">
+
+
+
+   <ImageView
+       android:id="@+id/banner"
+       android:layout_width="300dp"
+       android:layout_height="130dp"
+       android:src="@drawable/textlogo"
+       android:layout_marginTop="50dp"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:textSize="24sp"
+        android:theme="@style/inputtexthint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner"/>
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Password"
+        android:theme="@style/inputtexthint"
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        android:longClickable="false"
+        android:drawableRight="@drawable/ic_baseline_visibility_off"
+        app:passwordToggleEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="329dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#30ced0"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:background="@drawable/roundstyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"/>
+
+
+ <TextView
+     android:id="@+id/forgotPassword"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="15dp"
+     android:layout_marginLeft="40dp"
+     android:fontFamily="sans-serif"
+     android:text="Forgot Password?"
+     android:textColor="@color/white"
+     android:textSize="16sp"
+     app:layout_constraintTop_toBottomOf="@+id/signIn"
+     app:layout_constraintLeft_toLeftOf="parent"
+   />
+
+
+ <TextView
+     android:id="@+id/register"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginRight="40dp"
+     android:layout_marginTop="15dp"
+     android:fontFamily="sans-serif"
+     android:text="Register Here!"
+     android:textColor="@color/white"
+     android:textSize="16sp"
+     app:layout_constraintTop_toBottomOf="@+id/signIn"
+     app:layout_constraintRight_toRightOf="parent"
+      />
+
+ <Button
+        android:id="@+id/guest"
+        android:layout_width="207dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#30ced0"
+        android:text="Continue as Guest"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:background="@drawable/roundstyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forgotPassword"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        />
+
+ <ProgressBar
+     android:id="@+id/progressBar"
+     style="?android:attr/progressBarStyleLarge"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_centerInParent="true"
+     android:visibility="gone"
+     tools:ignore="MissingConstraints"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintLeft_toLeftOf="parent"
+     app:layout_constraintRight_toRightOf="parent"
+     />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

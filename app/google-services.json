@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "211017191382",
+    "firebase_url": "https://auth-70a39-default-rtdb.firebaseio.com",
+    "project_id": "auth-70a39",
+    "storage_bucket": "auth-70a39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211017191382:android:421a362af0256e17f3de77",
+        "android_client_info": {
+          "package_name": "com.example.teachpc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211017191382-5to91r7c3m58s98kbrc6mqa7hblruvq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsZ9nd6Sf9u2JBZaR6HPiOAyX6ExBdWkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211017191382-5to91r7c3m58s98kbrc6mqa7hblruvq2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

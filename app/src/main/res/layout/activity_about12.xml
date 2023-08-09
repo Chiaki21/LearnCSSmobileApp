@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_12">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Laptop and Motherboard"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@color/blue"
+            android:textSize="30sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Parts"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/laptopmotherboard1"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Numerous major components, crucial for the functioning of the computer, are attached to the motherboard. These include the processor, memory, and expansion slots. The motherboard connects directly or indirectly to every part of the PC."
+            android:textColor="#000000"
+            android:layout_marginTop="30dp"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="The type of motherboard installed in a PC has a great effect on a computer's system speed and expansion capabilities."
+            android:textColor="#000000"
+            android:layout_marginTop="30dp"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:fontFamily="serif"
+            android:text="Laptop Motherboard"
+            android:textColor="#000000"
+            android:textSize="20sp"></TextView>
+
+        <ImageView
+            android:id="@+id/laptopmotherboardview"
+            android:layout_width="360dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/laptopmotherboard2"></ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="The key difference between a desktop computer and a laptop computer is compactness; where a deskto has room for expandable cards and new hardware features, a laptop's hardware must fit into an inflexible case. As such, the motherboard on a laptop looks different than a desktop motherboard, even if many of the components are the same. Though not all motherboards are created equal, many have similar features that always look the same."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Differences in Designs"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Not every laptop motherboard is going to look the same. Different manufacturers have to design the motherboards differently depending on the layout of the laptop - where the keyboard sits, where the cooling fan is, and where the hard drive and battery are located, If a computer plugs in on the right hand side of the case, its motherboard will look different than a computer that plugs in on the left-hand side or on the back. But the specific pieces and parts always look similar; you just may not be able to find them in the same place on two different computers."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="CPU and Fan"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="The most obvious piece of hardware on a laptop motherboard is also the biggest: the CPU cooling fan. The fan sits atop the CPU to blow how air away from the brains of the computer. The fan is almost always near the edge of the motherboard to allow for airflow from oustide of the computer. amd the CPU is always beneath it. The fan is often - though not always - black, and has a three-colored power cable running from it to a power connector on the board."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Ports"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Ports are easy to identify on a motherboard since they all have an external component on the computer; where you see USB connectors and an HDMI output on the edge of your system, you'll see the same pieces around the edge of the motherboard. How many you have on your motherboard depends on your system. You may have two or three video ports. a power connector port, a few USB slots and headphone/microphone or removable media slots"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Other Chips and Memory"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="The other main componențs on your motherboard really depend on your system's configuration. If your laptop has a graphics processing unit, it will have its own space on
+the motherboard, often near the edge where
+the display is connected. Memory, or RAM,
+may be permanently mounted on your
+motherboard -these look like as black chips
+about the size of nickels-or may be inserfed
+into the motherboard through expandable
+memory slots that are accessed from the
+base of the computer. You'll also see a circular
+silver object; that's the CMOS battery for your
+computer, which keeps the clock running and
+stores vital system configuration information."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+
+    </LinearLayout>
+
+</ScrollView>

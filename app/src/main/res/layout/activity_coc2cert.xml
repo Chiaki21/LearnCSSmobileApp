@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/certbg"
+    tools:context=".coc2cert">
+
+    <TextView
+        android:id="@+id/systemname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="serif"
+        android:text="TeachPC"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/applogo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/systemname"
+        android:src="@drawable/applogocircle" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/applogo"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="serif"
+        android:text="CERTIFICATE"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:fontFamily="serif"
+        android:layout_centerInParent="true"
+        android:text="OF KNOWLEDGE"
+        android:textSize="18sp"
+        android:layout_below="@id/text1"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="35dp"
+        android:fontFamily="serif"
+        android:text="PROUDLY PRESENTED TO:"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+
+    <LinearLayout
+        android:id="@+id/namelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/text3">
+
+        <TextView
+            android:id="@+id/firstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffbf00"
+            android:fontFamily="cursive"
+            android:textSize="35sp"/>
+
+        <TextView
+            android:id="@+id/space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="45sp"
+            />
+
+        <TextView
+            android:id="@+id/lastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffbf00"
+            android:fontFamily="cursive"
+            android:textSize="35sp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namelayout"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:text="For successfully completed the given test in"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text4"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="CSS COC 2: Set-up Computer Networks"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/vline"
+        android:layout_width="120dp"
+        android:layout_height="2dp"
+        android:layout_below="@+id/text5"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="80dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/certifiedby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vline"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="serif"
+        android:text="Certified by"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/goldribbon"
+        android:layout_width="130dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/text4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/goldribbon" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgteachpc"
+    tools:context=".coc2confirm">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/congratulationsIcon"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/bearcongrats" />
+
+
+    <TextView
+        android:id="@+id/textconfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/congratulationsIcon"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="WOW! you've done it!\n\nThank you for using TEACHPC\nas your learning material.\n\nPress confirm to get your\ncertificate for COC 2"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/passdata"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/textconfirm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/round_back_skyblue20"
+        android:text="Confirm"
+        android:textColor="#FFFFFF"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/coc2dec"
+        android:textSize="1sp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/dark"/>
+
+</RelativeLayout>

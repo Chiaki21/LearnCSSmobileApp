@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgteachpc"
+    tools:context=".QuizResults">
+
+    <ImageView
+        android:id="@+id/congratulationsIcon"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/congratulations" />
+
+    <TextView
+        android:id="@+id/successTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/congratulationsIcon"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="You've completed the category!"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+
+
+
+    <LinearLayout
+        android:layout_below="@id/successTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        >
+        <TextView
+            android:id="@+id/correctAnswersText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correct Answers:"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:textColor="#00C853"/>
+        <TextView
+            android:id="@+id/correctAnswers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="0"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#00C853"
+            />
+
+        <TextView
+            android:id="@+id/incorrectAnswersText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Inorrect Answers:"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:textColor="#DD2C00"/>
+
+        <TextView
+            android:id="@+id/incorrectAnswers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#DD2C00"
+            android:layout_gravity="center"
+            android:text="0"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            />
+
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startNewQuizBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/round_back_skyblue20"
+        android:text="Start New Quiz"
+        android:textColor="#FFFFFF" />
+
+
+</RelativeLayout>

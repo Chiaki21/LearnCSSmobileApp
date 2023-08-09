@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Uses of Computer?"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/about2video"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="Source: Learn Computer Technologies"
+            android:textColor="#000000"
+            android:textSize="14sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Computers are now performing diverse set functions from complicated calculations to generating business reports, bill generation to education, programming or development to entertainment, etc."
+            android:textColor="#000000"
+            android:layout_marginTop="30dp"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Computers have taken industries and businesses to a whole new level. In this article, we have elaborated the most common uses of computers in different fields:"
+            android:textColor="#000000"
+            android:layout_marginTop="30dp"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:id="@+id/aboutuses"
+            android:layout_width="380dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/usesofcomputer"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Business"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Currently, computers can be seen in almost every business. Computers are almost part of a business setup because they increase productivity and help race in a competitive environment. In businesses, computers are primarily used to store and manage accounts and personal data, maintain projects, track inventory status, and make reports and presentations. Besides, computers are best suited for transaction processing because they are more accurate and faster than humans. Computers also help people analyze their investment, expenses, profits, sales and many other aspects of the business."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Science"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Scientists are amongst one of those people who use computers as their primary work tool. In science, research and engineering, computers are best suited for collecting, analyzing, categorizing, and storing the data. They also help scientists to exchange data with each other both internally and internationally. Computers enable scientists from different locations (such as different countries) to work together on the same project with cloud support. Besides, computers play a crucial role in launching, maintaining, controlling spacecraft, and operating many other technologies."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Government"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="In the government sector, computers are beneficial. They are getting used to performing various functions in different departments and improving their services' quality, efficiency, and productivity. Some examples of such services are city planning, traffic control, law enforcement, infrastructure developments, and tourism. In most cases, the primary purposes of using computers are performing data processing tasks, maintaining citizens' database, and promoting a paperless environment. Apart from this, computers are playing a crucial role in the country's defense system. They are helping in missile development, rocket, satellite launches, etc."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Health and Medical"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Computers are radically changing the methods of diagnosis in hospitals. They are used for maintaining patients' information, records, live monitoring of patients, X-rays, and more. Everything is being digitized with the help of computers. Computers help configure lab-tools, monitor heart rate, and blood pressure, etc. Doctors get extra advantages in treating patients with proper drugs and medicines. Additionally, computers enable doctors to exchange patient's data easily with other medical specialists. Besides, advanced surgical devices are based on robotics that helping surgeons to conduct complex operations and surgeries remotely."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Education"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Computers are broadly getting used in the education field. They help people get different educational materials (such as images, videos, e-books, etc.) in one place. All such information can be accessed through the Internet. Additionally, computers are best suited for online classes, online tutoring, online examinations, and creating assignments and projects. Apart from this, they can also be used to maintain and monitor student performance and other information."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Industry"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Computers are used in industries to perform various tasks, such as maintaining inventory, interior designing, designing samples or virtual products, communicating over video conferencing, and more. Online marketing has made it easier for people to buy products in rural areas. Online trading in stock markets has also seen a significant revolution due to its easy participation potential. Computers have enabled people from different levels of different locations to participate easily in stock marketing."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Banking"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Banking has become so advanced in the past few years. Most countries use online banking systems where customers can access their data directly using computers and the Internet. People can check their account balance, transfer money, and pay online bills, including credit cards. Besides, Banks use computers to perform transactions and store customer data, transaction records, etc. Banks have reduced the number of manual errors, number of employees, and costs to a great extent by using computers. ATMs are the best example of computers that are helping people to withdraw and deposit the money themselves."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Entertainment"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Computers nowadays are one of the best mediums for entertainment. Computers can be used to watch movies, play games, listen to music, etc. Computers combined with MIDI instruments can be used to record audio through artificial instruments. Besides, people can also enjoy recording their videos with webcam and apply several entertaining AI effects. Several Photo editor programs are also available with fabulous powerful features."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Training"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Most companies use computers to provide training to their employees. Computer-based training helps companies save their time, money, and increase productivity. Also, computer-based training can be used to train employees for large distances in various locations. This will eliminate travel time and costs, making the training process much more comfortable and smoother."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Arts"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Computers have become part of art, photography, dance, and culture. Computers with advanced features allow users to draw their projects directly on it. Besides, people can use computers to digitize their photos. There are several photo editor software that can help people edit and customize their photos. Apart from this, the dance's movements and steps can be shown live with animations' help."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Sports"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="In today's technologically developed world, computers are being used in almost every sport. There are many sports activities where computers are making things possible. In sports, computers are mainly used to maintain scoreboards, records, and other statistics. Furthermore, they are used to analyze player movements and make various in-game decisions. Computers help make complex in-game decisions (especially in umpiring), which cannot be seen by human eyes."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Robotics"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Robotics is one of the emerging fields of technology that uses computers for science and engineering as well as designing machines. These machines can be virtual (such as software bots) and physical ones that can reduce or eliminate human workload. Additionally, some machines can perform heavy tasks that humans cannot complete, or that may take a long time to complete. Car manufacturing was one of the first examples where robots helped to assemble car parts and perform many other heavy tasks. However, nowadays, robots are beneficial in many fields, such as exploring areas where conditions are difficult for humans, helping the military, helping law enforcement and helping health professionals, etc."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Safety and Security"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Computers are capable of working together with different equipment, tools, and technologies. When it comes to safety, computers are widely being used with the security camera. Almost every private and government organizations are equipped with security cameras to monitor people and goods. Also, these cameras are helping security intelligence agencies to identify terrorists or criminals in public places. Computers attached with a fingerprint scanner and face-recognition technology have made it harder for fraudsters to use fake identities and take government benefits using someone else's identity. Security systems have become so powerful with the introduction of computer technology and the Internet."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Publishing"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Computers are one of the first choices when it comes to publication. Computers are mainly used for designing newsletters, novels, posters, magazines, or newspapers, etc. They are suitable for almost every type of publication. Computers can be seen in both types of publishing methods, either its hard-copy or e-books. Apart from this, computers play a vital role in blogging and writing articles on websites."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Weather Forecasting"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Weather forecasting is never easy for humans because it depends on many factors that are continually changing. It is almost impossible for humans to predict the weather without using a computer. The weather forecasting process involves complex computation and monitoring of data from satellites and many other technological devices. The computer has made it a little easier to predict weather conditions because it can process information from different sources and make complex calculations related to it, which are necessary for forecasting. Computers process enormous amounts of meteorological information during weather forecasting."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Communication"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Computers have become one of the primary sources of communication. Modern computers come with a built-in webcam and microphone to make use of communication easier. People can use software like Skype and Hangout to connect with other people over the Internet. Because of the videoconferencing feature, people can connect with audio and video. Computers help families connect to their relatives, businesses to organize meetings, and companies to take interviews, between two different locations that are too far. Apart from this, older communications methods such as emails are also still used widely."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

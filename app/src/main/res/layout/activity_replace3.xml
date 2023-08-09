@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".replace_3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Upgrading Graphics Card"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/replace3computer"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="Source: PCGamesN"
+            android:textColor="#000000"
+            android:textSize="14sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="Upgrading your desktop PC’s graphics card can give your gaming a pretty big boost. It’s also a fairly easy thing to do. In fact, the hardest part is choosing the right card right card in the first place."
+            android:layout_marginTop="30dp"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="1. Check for Basic Compatibility"
+            android:layout_gravity="left"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Make Sure Your Motherboard Has the Right Kind of Slot"
+            android:layout_gravity="left"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Today’s graphics cards all use the PCI-E standard for plugging into your computer’s motherboard. This standardized slot gives high-speed access to your PC’s processor and RAM, and its position on the board allows easy access to the rear of the case, letting you plug one or more monitors directly into the card itself."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Make Sure the Card Fits in Your Case"
+            android:layout_gravity="left"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="A lot of the higher powered graphics cards are wide enough that they take up the space of two slots. If you’ve already got another type of card plugged in next to the slot you’ll use for your graphics card, you’ll need to take that space limitation into account."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="The more thorny issue is card length. While low-end and mid-tier cards are generally short enough to fit most cases, more powerful cards tend to be much longer. And in some cases your available space might be further limited by where hard drives are installed, where cables are plugged into your motherboard, and how power cables are run."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="The easiest way to handle all this is to pop open your case and measure the space you have available. When you’re shopping online for cards, the specifications should list the measurements of the card."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Make Sure Your Power Supply Can Handle the Card’s Power Requirements"
+            android:layout_gravity="left"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="You’ll need enough power coming from the power supply unit to feed the the new graphics card, in addition to all of your current computer components."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Most of the time this isn’t an issue—a relatively inexpensive 600-watt power supply can handle all but the most power-hungry graphics card plus all the standard PC components. But if you’re upgrading a inexpensive or compact desktop (or any non-gaming PC, really), you need to check your power supply."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Specifications for graphics cards list their estimated power draw (or consumption) in watts. Make sure your power supply has at least that much available (with a 30-40w safety margin) before making your final choice. If it doesn’t, you need to choose a less powerful card or upgrade your power supply at the same time."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="The other thing you need to check is whether you have an available power cable of the right type. Some low-power cards can run from the electricity supplied by the motherboard alone, but most cards need a separate input straight from the power supply."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Check the specifications on the card you’re choosing. If the card needs a separate input, it will require either a 6-pin or 8-pin plug. Some more powerful cards even require multiple connections. Make sure your power supply has the right cables and plug types for the card you want. On many modern power supplies, those plugs are even labeled PCI-E."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Make Sure You Can Connect a Card to Your Monitor"
+            android:layout_gravity="left"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Of course, you’ll need a monitor that can actually accept the video output of your new card. This usually isn’t a big deal—most new cards come with at least one DisplayPort, HDMI, and DVI connection. If your monitor doesn’t use any of those, adapter cables are cheap and plentiful."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="2. Choose Your New Card"
+            android:layout_gravity="left"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Once you’ve figured out what your PC can handle, it’s time to choose your new card. And there’s a lot to choose from. The first thing to take into account is your budget, and then you can narrow down from there."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Set Your Budget"
+            android:layout_gravity="left"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="The graphics card market is fairly competitive, and as a general rule, the more money you spend, the more powerful the graphics card. Choose the best card that fits your budget."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Check Reviews and Benchmarks"
+            android:layout_gravity="left"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Even in a particular budget range, you’ll find a lot of choices between different brands and configurations. Here’s where you’ll need to dive into the subtle differences to make your decisions."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="3. Install Your New Card"
+            android:layout_gravity="left"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="After you finally get your new card, it’s time to plug that sucker in. And after the headache of sorting through reviews, choosing a new card, and parting with your money, this part is easy. You’ll need a cool, dry place to work with plenty of table or desk space, a Phillips-head screwdriver, and optionally an anti-static bracelet to protect your PC’s internal components."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Shut down your computer, unplug all the cables, and move the computer to your working area."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Now, it’s time to remove the cover from the case. On most full-size PCs, you just need to remove a side panel so you can get to the card slots—usually on the left side of the PC if you’re facing its front. On some PCs, you’ll need to remove the whole case. And some manufacturers make this harder than others. When in doubt, check your manual or just search the web for how to take the case off your computer model."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="After getting the cover off, lay your PC on it’s side. You should now be looking down at your computer’s internals. If you have a current graphics card that you’re upgrading, you’ll need to remove it first. If not, skip to the next section."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Removing An Existing GPU"
+            android:layout_gravity="left"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="The graphics card should be pretty obvious. It’s plugged into one of the slots on the motherboard—usually the one farthest from you if you’re facing the bottom of the computer—and has its monitor connections sticking out the back of the PC. It may or may not have cables from the power supply plugged into it. And it may or may not have fans right on the card."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Installing A New GPU"
+            android:layout_gravity="left"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="If you just removed an existing card, you know where the new card goes. If you’re installing a card where there wasn’t one before, find the PCI-E x16 slot on your motherboard—check this article if you’re not sure which one it is. Remove the corresponding “blank” metal piece from the case’s expansion slot, or two if it’s a double-width card. You may need to remove some screws to do this—set them aside."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Gently slide your card into place on the PCI-E slot. As it’s going in, be sure to align the metal piece that connects with the case with the tab that accepts it."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/upgradegpu1"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="When it’s in and perpendicular to the motherboard, push down gently until you hear the plastic tab at the end of the PCI-E slot “pop” into place. You may need to push it a little with your finger to make sure it’s physically locked into the receiver slot on the card."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Next, use the screws you set aside to secure the graphics card to the metal piece at the back of the case."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="And finally, connect the power cable if your card requires one. Whether you’re using a 6-pin connector, an 8-pin, or multiple power connectors on a high-powered card, the plugs should only be able to fit in one way."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/upgradegpu2"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Double check all the connections and screws to make sure they’re firmly in place, and then replace the side panel or case cover. You’re now ready to move your PC back to its usual spot, plug in all your power and data cables, and turn it on. Make sure to connect your monitor to your new graphics card, not to the video-out connection on the motherboard itself!"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/upgradegpu3"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="If your display is blank after turning everything on, go back through this guide—you may not have installed the card correctly. The most common troubleshooting problem is a card that’s not fully inserted into the PCI-E slot; double-check the plastic tab and make sure it can lock in place."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Another cause for this happens when you’re installing a new card on a system where you previously used the internal graphics built into the PC’s motherboard. Most PCs automatically detect whether you’ve got a discrete video card installed and make it the default display. Some systems may not. Check your BIOS and you should find a setting that lets you set your default display."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="If the monitor still isn’t showing the boot screen, you may have a more serious compatibility issue."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="4. Install Graphics Card Drivers"
+            android:layout_gravity="left"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="When your PC starts, everything will probably look fine. Windows includes basic drivers for most video cards. To get the most out of your new card, though, you’ll need to download and install the correct drivers."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/upgradegpu4"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Luckily, this is pretty simple these days. NVIDIA and AMD both offer downloads directly on their website, separated into card and operating system directories. You’ll also find options for automatically detecting your card and showing you the drivers you need. Just select whichever ones apply to your system and download them in with your web browser. This might take a few minutes—the complete graphics suites are generally a few hundred megabytes."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+
+    </LinearLayout>
+
+</ScrollView>

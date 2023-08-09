@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_11">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="What is Hyperthreading"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/about11computer"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="Source: Techquickie"
+            android:textColor="#000000"
+            android:textSize="14sp">
+        </TextView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="The basic idea behind hyperthreading is to be able to process several threads simultaneously with one microprocessor. While previously only one thread could be managed per processor."
+            android:textColor="#000000"
+            android:layout_marginTop="30dp"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="What does hyperthreading mean?"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/hyperthreading1"></ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="What may sound like science fiction is nothing more than the old wisdom that four hands can do more than two: hyperthreading. Intel’s hyperthreading method originates from the server sector, where several physical processors are usually used simultaneously to increase computer performance.\nWith hyperthreading, on the other hand, there is only one physical processor, but it behaves like two processors. This is made possible by the processor dividing itself into two virtual cores – also known as kernel – which process threads in parallel.\nThis allows multiple instruction queues to be processed simultaneously as a hyper thread, processes to be split between the virtual cores, and CPU utilization to be improved."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Definition"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Hyperthreading refers to the technology invented by Intel, with which a physical microprocessor behaves like two logical, virtual cores. This makes it possible for a processor to process more than one task or more than one thread simultaneously. Hyperthreading increases CPU performance and ensures better utilization of the computer."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="How does hyperthreading technology work?"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="The way hyperthreading technology works was and is one thing above all: innovative. It gives a single processor core the ability to behave like two physical processor cores and to process more threads, i.e. more instruction queues, in parallel without idle times. When hyperthreading is enabled, two execution contexts are managed and processed per CPU core. A core is divided into two virtual, logical cores, which share the processor’s computing power. Hyperthreading always applies per physical core. So, if there is a ten-core processor with hyperthreading enabled, ten physical cores behave like 20 virtual ones and process even more threads."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/hyperthreading2"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="What are the benefits of hyperthreading?"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Probably the biggest advantage of hyperthreading is that implementing hyperthreading technology in microprocessors is less expensive than using two physical microprocessors. However, since most computers today already have multi-core processors, this advantage can only be exploited if CPUs with hyperthreading have the same number of physical processors as machines that don’t support hyperthreading."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

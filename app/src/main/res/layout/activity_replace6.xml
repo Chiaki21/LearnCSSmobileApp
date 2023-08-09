@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".replace_6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Upgrade or Replacing"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Power Supply Unit"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/replace6computer"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="Source: GH Tech"
+            android:textColor="#000000"
+            android:textSize="14sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="The power supply or “PSU” is the electrical heart of your PC. And if yours has recently stopped beating, or you’re upgrading your computer with more powerful components, you need a new one."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Choosing a new power supply can be tricky, since you’ll need to determine the required power draw, or wattage, of the rest of your components. You’ll also have to select a model that fits in your PC, and one that has the correct cables (rails) to fit your components. Then you’ll need to install it, and since the power supply is directly connected to multiple components, it’s a rather involved procedure. Let’s break it down."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Picking a New Power Supply"
+            android:layout_gravity="left"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Choosing the right power supply is essential for making sure your PC runs well. Without an adequate supply of regulated electricity, your desktop might suffer from performance issues, or possibly not boot at all."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="How Much Power Do I Need?"
+            android:layout_gravity="left"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="The amount of power a power supply delivers is measured in watts. They generally provide from around two hundred for the smallest and most efficient machines to over a thousand (one kilowatt) for the biggest, beefiest gaming and media desktops. Determining how much power you need is a matter of adding up the power draw from all of your components."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="The biggest two power draws on a PC are typically CPU and graphics card. That’s assuming you use a graphics card, of course—not all PCs have a separate card, and sometimes even a discrete card is low-power enough to draw its electricity directly from the motherboard. But if your PC is built for gaming or even light media editing duties, you’ll need to account for it."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Other components also draw power, including hard drives, optical drives, and cooling systems like fans or radiators. These are typically require much lower power, and can usually get away with rough estimates."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="What Cables Do I Need?"
+            android:layout_gravity="left"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/replacepsu1">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="The cables that run from your power supply to the various components in your PC generally standardized, but there are three crucial types you want to check for compatibility with your specific machine:"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="• Main motherboard cable"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="• CPU motherboard cable"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="• GPU power cables"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Installing Your New Power Supply"
+            android:layout_gravity="left"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Oh, and before you go any further: DO NOT OPEN THE METAL CASING OF THE POWER SUPPLY ITSELF. There are high-power capacitors inside that can injure or kill you if they discharge. For the same reason, don’t stick any tools or wires inside the holes for the cooling fan or exhaust, either."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Removing the Old Power Supply"
+            android:layout_gravity="left"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Power down your PC, remove all the power and data cables, and then move it to your work area. You’ll want to remove any access panels from the case (on some PCs, you have to remove the whole case as one piece). On a standard ATX case, these are on the right and left sides, held in place with screws on the back of the computer. Remove these screws (two or three on a side), then pull back the access panels and set them aside."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="If you use a small form factor or other non-standard case, consult the manual. Remove as much of the exterior panels as you can to give yourself maximum access to the interior: you’ll need to unplug power cables from multiple components."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/replacepsu2">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Now, identify all of the components plugged into your power supply. On a standard PC build, this will be:"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:text="• Motherboard"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="• CPU (on the motherboard)"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="• Storage drives"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="• Optical drives"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="• Graphics cards"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="• Case fans and radiators"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Check from both sides of your PC and multiple angles: excess lengths of power and data cables are often stored behind the metal motherboard mounting tray."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/replacepsu3">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="When you’ve identified which components are plugged into your power supply, unplug them one by one. Some may be held in place with plastic tabs, but you shouldn’t need to use anything except your fingers to unplug them. If you have to remove anything to get to these plugs, especially data cables, remember their original positions and restore them as you have access. Taking pictures as you go is a great idea."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="If your power supply is modular, you also can remove the power rails from the back of the power supply housing. Carefully pull them free of the PC case itself and set them aside. If your power supply isn’t modular, simply pull all the power rails to the most accessible open space and make sure they’re free of entanglements with anything else in the case."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/replacepsu4">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Now turn your attention to the back of the PC. The power supply is held in place with three to five screws that are accessible from the outside of the PC case. Remove them and set them aside. Some case designs differ; if you see more screws in non-standard locations on the power supply, remove them too."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/replacepsu5">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="With all the cables unplugged and the retention screws removed, you can now pull the power supply free of the case."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Depending on where the power supply is placed (top or bottom of the case) and what other components are nearby, pulling it out of the case might be easy or might be challenging. If it’s near the top of the case and it’s crowded by an oversized CPU cooler, for example, you might end up having to remove that cooler so you can get the power supply out."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Installing the New Power Supply"
+            android:layout_gravity="left"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Now, we’re going to reverse the process. Place the new power supply in position in your PC. If it’s modular, don’t plug anything into it. If it isn’t modular, simply trail the power cables outside of the PC for easy access."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="You’ll want to position the exhaust fan on the top or bottom of the power supply so that it’s facing away from the motherboard and the other internal components. So if the power supply is mounted at the top of the case, point the exhaust fan up. If it’s bottom-mounted, point it down. If the exhaust fan blows out the back of the case, it doesn’t matter."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/replacepsu6">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Secure the power supply to the rear of the PC case with the retention screws, screwing from the outside of the case into the metal housing of the power supply. Use the screws from the previous power supply if you’re replacing it, otherwise the screws should have come with either your PC case or the power supply itself."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="When the power supply is fixed in place, it’s time to plug in all those cables. If your power supply is modular, plug the cables into their sockets on the back of the supply itself. Now plug the opposite end of the rails into their corresponding components."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/replacepsu7">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="These components are fairly standardized: motherboard, motherboard-CPU, storage drives and disc drives, GPU (if applicable), and case fans or radiators (if they’re not already plugged in). You should be able to plug everything in without any further tools. If something isn’t plugging in all the way, check the orientation of the plug; all of the multi-pin cables should only be able to fit one way."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/replacepsu8">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="As you’re plugging in components, be wary of where you run the power cables. The inside of your PC doesn’t have to look like a showroom, but you should make sure that power and data cables don’t trail near cooling fans: they can drag and tangle. Even if they’re only touching slightly, they’ll make an annoying noise once your PC is running and potentially strip the protective casing."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/replacepsu9">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Also, keeping cables as tidy as you can not only looks better, it helps promote good airflow inside your case and makes components easier for you to get to in the future."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Once you’re sure everything’s plugged in, you might want to move your PC back to its normal position with your mouse, keyboard, and monitor before closing up. Being careful not to touch any of the interior components while it’s running, plug everything in and power it up, just to make sure it’s booting correctly. If not, then go back and check your connections again to make sure you haven’t missed a power plug or accidentally removed a data cable. Oh, and check the switch on the back of the power supply to make sure it’s in the “ON” position."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="If everything looks good, then unplug the external cables, close up the access panels, and screw them into place to get your PC ready for normal operation. Then place it back in its usual spot, and enjoy your new power supply."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+
+    </LinearLayout>
+
+</ScrollView>

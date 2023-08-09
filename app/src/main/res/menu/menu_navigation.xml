@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/coc_nav"
+        android:title="COC"
+        android:icon="@drawable/ic_build"
+        />
+
+    <item
+        android:id="@+id/dashboard_nav"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_dashboard"
+        />
+
+    <item
+        android:id="@+id/about_nav"
+        android:title="About"
+        android:icon="@drawable/ic_about"
+        />
+
+</menu>

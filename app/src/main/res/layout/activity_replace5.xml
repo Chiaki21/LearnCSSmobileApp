@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".replace_5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Upgrading or Replacing"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="CPU"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="30sp">
+        </TextView>
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/replace5computer"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="Source: GH Tech"
+            android:textColor="#000000"
+            android:textSize="14sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="If you built your PC from scratch, then upgrading your central processing unit (aka processor, or CPU) shouldn't present too much of a challenge — just reverse the steps you used to install it. However, if you purchased a pre-built gaming desktop, or had some help from a more tech-savvy friend, rooting through your computer's guts to swap out its very heart may sound downright daunting."
+            android:layout_marginTop="30dp"
+            android:textSize="17sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="How to Change Out Only the CPU"
+            android:layout_gravity="left"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="If you have an identical CPU you want to swap out in your system, or one that’s compatible with your current machine’s socket and other hardware, it’s not a huge hassle to get it out. Follow the steps below."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="You’ll need a Phillips-head screwdriver and a clean, dry place to work, preferably without a carpet. If your home is particularly static-prone, you might want to use an anti-static bracelet. A cup or bowl is also handy for holding loose screws. You can re-use the CPU cooler from your current system or replace it with a new one, but if your new CPU doesn’t include thermal paste in the package, you’ll need to get that as well. Thermal paste helps conduct heat from your CPU into the CPU cooler, and it’s a necessity."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="First, unplug all the power and data cables from your PC and move it to your workspace. Remove the screws holding the left-side access panel from the case—these are on the back of the machine, screwed into the edge. You can then slide the access panel off and set it aside. (If your case is a small or unusual design, consult the manual for precise instructions.)"
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/replacecpu1"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Set the PC on its side, with the motherboard facing up. You should be able to look down at the motherboard with all its various ports and connections. The CPU cooler is the large gadget with a big piece of metal (the heat sink) and one or more fans attached to it."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/replacecpu2"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="You’ll need to remove the cooler before you can access the CPU. For our Intel stock cooler, this is relatively simple: we just turn the thumbscrews at all four corners, and then lift it off. This process can be complex if you’re using an aftermarket cooler, requiring adapters and some tight working."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Consult the manual for your cooler if it’s not obvious. More complex water-cooled systems might also require advanced techniques. You can also likely find videos on the internet of people removing and attaching the cooler you’re using. It’s worth doing a bit of research."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/replacecpu3"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Before you lift the cooler away, check the power cable attached to the fan. It’s probably plugged into a 4 pin power adapter, somewhere near the CPU socket. Gently pull it out, and you can then remove the entire cooler."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/replacecpu4"></ImageView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/replacecpu5"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="You’re now looking down directly at your computer’s CPU. The gelatinous stuff on top of it is the thermal paste that allows heat to efficiently transfer to the cooler. Don’t worry if it’s a little messy."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="You’ll now want to lift the retention plate off of the CPU. The method for doing this varies from socket to socket, but there’s generally a lever holding it down and/or a screw for extra security. On our Intel LGA-1151 socket, we release the lever and lift the plate."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/replacecpu6"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="At this point the only thing holding the CPU in is gravity. Carefully grasp it with your finger and lift it out. Set it aside. If it’s broken and you have no use left for it, you don’t need to baby it. But if you’re hoping to use it in the future, you’ll want to clean off the thermal paste with a Q-tip and some isopropyl alcohol and put it in an anti-static bag. You’ll also want to do the same for the bottom of the heatsink you removed, if you’re planning on using it again."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/replacecpu7"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Now take a look at the CPU socket on the motherboard. If there’s any thermal paste left on the socket near the electrical contact pins in the socket itself, carefully clean them with a dry cloth or a Q-tip. You’re trying to avoid getting any paste in between the CPU and those contact pins when you install the new CPU."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Now remove the new CPU from its packaging. Insert it into the open CPU socket on the motherboard. Most modern CPU designs can only fit in one way—check contacts on the bottom of the CPU and the socket to make sure you’re installing it correctly. It should slide or sit in place easily, without you putting any pressure on it."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/replacecpu8"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="When you’ve seated the CPU, lower the plate onto it, and install whatever retention method is used on the socket. Don’t force it too hard: if you feel more than a pound (half a kilogram) of force pushing back on your finger, the CPU may not be properly seated. Pull it out and try again."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/replacecpu9"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="If the cooler that came with your CPU has thermal paste pre-applied to the bottom, you’re ready to install it. If not, then squeeze about a pea-sized drop of thermal paste onto the center of the CPU from the paste tube. You don’t need a lot. It spreads out evenly when you lock the cooler into place."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/replacecpu10"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Now re-install the cooler. Again, the method for doing so will vary based on the cooler design. If you’re upgrading to a newer, larger cooler, you’ll be placing it on the backing plate I mentioned earlier. If you’re replacing it with a stock cooler, just screw it down. In either case, don’t forget to plug the cooling fan in on one of the 4 pin fan plugs on the motherboard when it’s in place."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/replacecpu11"></ImageView>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/replacecpu12"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="With the CPU and cooler re-installed, you’re ready to close up your PC case. Replace the access panel and screw it in on the back of the frame. Now return it to its normal spot and power it on for a test."
+            android:textColor="#000000"
+            android:textSize="17sp">
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
